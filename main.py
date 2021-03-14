@@ -4,7 +4,7 @@ import numpy, pandas as pd, sklearn
 
 # Read data
 dataset = pd.read_csv('adult.data', names = ['age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week','native-country','yearly-income'])
-datasetTest = pd.read_csv('adult.test', names = ['age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week','native-country','yearly-income'])
+datasetTest = pd.read_csv('adultModified.test', names = ['age','workclass','fnlwgt','education','education-num','marital-status','occupation','relationship','race','sex','capital-gain','capital-loss','hours-per-week','native-country','yearly-income'])
 
 from sklearn.datasets import load_iris
 from sklearn.model_selection import cross_val_score
